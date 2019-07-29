@@ -21,7 +21,6 @@ sc_y = StandardScaler()
 y = sc_y.fit_transform(y.reshape(-1,1))
 
 # Fitting the SVR to the dataset
-# Create your regressor here
 from sklearn.svm import SVR
 
 regressor = SVR(kernel = 'rbf')
