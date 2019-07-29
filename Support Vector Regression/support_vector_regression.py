@@ -10,7 +10,6 @@ X = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values
 
 
-
 # Feature Scaling
 from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
